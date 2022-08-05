@@ -1,0 +1,9 @@
+bigquery:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: training-user-1-project
+      dataset: dbt_dataset
+      threads: 1

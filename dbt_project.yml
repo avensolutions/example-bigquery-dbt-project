@@ -1,7 +1,7 @@
 name: 'example_bigquery_dbt_project'
 version: '1.0.0'
 config-version: 2
-profile: 'example_bigquery_dbt_project'
+profile: 'bigquery'
 model-paths: ["models"]
 analysis-paths: ["analyses"]
 test-paths: ["tests"]
