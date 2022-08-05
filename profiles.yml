@@ -1,3 +1,5 @@
+# Note that only one of these targets is required
+
 bigquery:
   target: dev
   outputs:
@@ -5,5 +7,5 @@ bigquery:
       type: bigquery
       method: oauth
       project: training-user-1-project
-      dataset: dbt_dataset
+      dataset: dbt_dataset # You can also use "schema" here
       threads: 1
