@@ -2,7 +2,7 @@
 
 with commits as (
     SELECT 
-    SUBSTR(commit, 0, 7) as commit_short_sha,
+    SUBSTR(commit, 0, 13) as commit_short_sha,
     committer.name as commiter_name,
     committer.date as commit_date,
     message,
