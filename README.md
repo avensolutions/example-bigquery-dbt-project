@@ -13,6 +13,8 @@
 
 ## Test and run your model(s)
 
+dbt parse --profiles-dir .
+
 - dbt run
 - dbt test
 
